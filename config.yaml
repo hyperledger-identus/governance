@@ -3,6 +3,7 @@ teams:
   maintainers:
   - ryjones
   members:
+  - jwagantall
   - thelinuxfoundation
 repositories:
 - name: governance
