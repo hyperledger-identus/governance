@@ -50,3 +50,8 @@ repositories:
       teams:
         staff: maintain
       visibility: public
+    - name: mediator
+      teams:
+        identus-admins: admin
+        identus-maintainers: maintain
+      visibility: public
