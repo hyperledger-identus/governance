@@ -1,18 +1,15 @@
 teams:
     - name: identus-admins
       maintainers:
-        - ryjones
-      members:
         - yshyn-iohk
-#      members:
+      members:
         - FabioPinheiro
         - amagyar-iohk
         - elribonazo
     - name: identus-maintainers
       maintainers:
-        - ryjones
-      members:
         - yshyn-iohk
+      members:
         - EzequielPostan
         - FabioPinheiro
         - FayyaadhAdams
@@ -33,6 +30,7 @@ teams:
 repositories:
     - name: governance
       teams:
+        identus-admins: maintain
         staff: maintain
       visibility: public
     - name: mediator
