@@ -1,40 +1,90 @@
 teams:
-    - name: identus-admins
-      maintainers:
-        - yshyn-iohk
-      members:
-        - FabioPinheiro
-        - amagyar-iohk
-        - elribonazo
-    - name: identus-maintainers
-      maintainers:
-        - yshyn-iohk
-      members:
-        - EzequielPostan
-        - FabioPinheiro
-        - FayyaadhAdams
-        - amagyar-iohk
-        - bsandmann
-        - curtis-h
-        - elribonazo
-        - goncalo-frade-iohk
-        - jesusdiazvico
-        - mineme0110
-        - patlo-iog
-    - name: staff
-      maintainers:
-        - ryjones
-      members:
-        - jwagantall
-        - thelinuxfoundation
+  - name: identus-admins
+    maintainers:
+      - yshyn-iohk
+    members:
+      - FabioPinheiro
+      - amagyar-iohk
+      - elribonazo
+  - name: identus-maintainers
+    maintainers:
+      - yshyn-iohk
+    members:
+      - EzequielPostan
+      - FabioPinheiro
+      - FayyaadhAdams
+      - amagyar-iohk
+      - bsandmann
+      - curtis-h
+      - elribonazo
+      - goncalo-frade-iohk
+      - jesusdiazvico
+      - mineme0110
+      - patlo-iog
+  - name: staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - thelinuxfoundation
 repositories:
-    - name: governance
-      teams:
-        identus-admins: maintain
-        staff: maintain
-      visibility: public
-    - name: mediator
-      teams:
-        identus-admins: admin
-        identus-maintainers: maintain
-      visibility: public
+  - name: apollo
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: cloud-agent
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: docs
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: edge-agent-sdk-kmp
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: edge-agent-sdk-swift
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: edge-agent-sdk-ts
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: governance
+    teams:
+      identus-admins: maintain
+      staff: maintain
+    visibility: public
+  - name: identus
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: infrastructure
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: private
+  - name: keycloak-plugins
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: mediator
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
+  - name: vdr
+    teams:
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
