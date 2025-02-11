@@ -1,4 +1,7 @@
 teams:
+  - name: bots
+    maintainers:
+      - hyperledger-bot
   - name: identus-admins
     maintainers:
       - yshyn-iohk
@@ -30,31 +33,37 @@ teams:
 repositories:
   - name: apollo
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: cloud-agent
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: docs
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: edge-agent-sdk-kmp
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: edge-agent-sdk-swift
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: edge-agent-sdk-ts
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
@@ -65,26 +74,31 @@ repositories:
     visibility: public
   - name: identus
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: infrastructure
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: private
   - name: keycloak-plugins
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: mediator
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
   - name: vdr
     teams:
+      bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
