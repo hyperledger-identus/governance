@@ -52,19 +52,19 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
-  - name: edge-agent-sdk-kmp
+  - name: sdk-kmp
     teams:
       bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
-  - name: edge-agent-sdk-swift
+  - name: sdk-swift
     teams:
       bots: admin
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
-  - name: edge-agent-sdk-ts
+  - name: sdk-ts
     teams:
       bots: admin
       identus-admins: admin
