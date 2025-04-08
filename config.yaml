@@ -103,3 +103,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: integration
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
