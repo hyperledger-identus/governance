@@ -73,12 +73,12 @@ repositories:
       identus-admins: maintain
       staff: maintain
     visibility: public
-#  - name: .github
-#    teams:
-#      bots: admin
-#      identus-admins: admin
-#      identus-maintainers: maintain
-#    visibility: public
+  - name: .github
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
   - name: infrastructure
     teams:
       bots: admin
