@@ -12,6 +12,7 @@ teams:
       - goncalo-frade-iohk
       - curtis-h
       - mineme0110
+      - patextreme
   - name: identus-maintainers
     maintainers:
       - yshyn-iohk
@@ -24,7 +25,7 @@ teams:
       - goncalo-frade-iohk
       - jesusdiazvico
       - mineme0110
-      - patlo-iog
+      - patextreme
   - name: staff
     maintainers:
       - ryjones
