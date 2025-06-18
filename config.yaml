@@ -114,3 +114,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: neoprism
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
