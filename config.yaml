@@ -84,6 +84,12 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: hyperledger-identus
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
   - name: infrastructure
     teams:
       bots: admin
