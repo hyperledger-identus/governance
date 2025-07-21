@@ -120,3 +120,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: prism-vdr-driver
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
