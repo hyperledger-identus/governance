@@ -13,6 +13,7 @@ teams:
       - curtis-h
       - mineme0110
       - patextreme
+      - pparker
   - name: identus-maintainers
     maintainers:
       - yshyn-iohk
@@ -26,6 +27,7 @@ teams:
       - jesusdiazvico
       - mineme0110
       - patextreme
+      - pparker
       - robertocarvajal
       - coveloper
       - bsandmann
