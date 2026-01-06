@@ -14,12 +14,14 @@ teams:
       - mineme0110
       - patextreme
       - pparker
+      - bernokl
   - name: identus-maintainers
     maintainers:
       - yshyn-iohk
     members:
       - FabioPinheiro
       - amagyar-iohk
+      - bernokl
       - bsandmann
       - curtis-h
       - elribonazo
