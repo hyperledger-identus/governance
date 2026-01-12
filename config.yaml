@@ -137,3 +137,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: sdk-rust
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: private
