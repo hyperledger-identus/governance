@@ -2,6 +2,8 @@ teams:
   - name: bots
     maintainers:
       - hyperledger-bot
+    members:
+      - lfdt-bot
   - name: identus-admins
     maintainers:
       - yshyn-iohk
