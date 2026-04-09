@@ -153,3 +153,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: public
+  - name: workspace
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: private
