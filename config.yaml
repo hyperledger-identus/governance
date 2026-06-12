@@ -146,3 +146,9 @@ repositories:
       identus-admins: admin
       identus-maintainers: maintain
     visibility: private
+  - name: identity-portal
+    teams:
+      bots: admin
+      identus-admins: admin
+      identus-maintainers: maintain
+    visibility: public
